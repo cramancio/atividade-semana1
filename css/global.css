@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(24, 19, 46);
+}
+button{
+    background-color: #d9b800;
+    color: #0d1c2e;
+}
+a, li, ul, button{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+}
+h1, h2, h3 {
+    color: #fff;
+}
+p{
+    color: #4e4b4b;
+}
+h1{
+    font-size: 45px;
+}

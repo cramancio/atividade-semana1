@@ -1,0 +1,120 @@
+/*  Header */
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+
+    margin: 20px;
+}
+.logo-principal{
+    img{
+        width: 200px;
+    }       
+}
+.menu-navegacao{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin-left: 40px;
+}
+/*  Header */
+
+.footer-servicos{
+    background-color: #0b0f19;
+}
+.footer-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seção Principal */
+.section-principal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0b0f19 ;
+}
+.texto-principal{
+    width: 600px;
+    margin: 40px;
+}   
+
+/* Seção Principal */
+.contato{
+    color: #fff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+    margin:  40px;
+
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+}
+.copy{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Seção Principal */
+
+/* Página de Serviços */
+
+.itens-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 40px;
+    width: 100%;
+}
+.textos-container-principal{
+    text-align: center;
+
+}
+.servico-item{
+    width: 250px;
+    text-align: center;
+    background-color: #ffffff09;
+    border: 1px solid #0b0f19;
+}
+
+/* Página de Serviços */
+
+/* Página Quem somos */
+.quem-somos{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Página Quem somos */
+
+/* Pagina de Cursos */
+ .cursos-container{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+} 
+.footer-cursos{
+    background-color: #0b0f19;
+    margin-top: 150px;
+}
+/* Pagina de Cursos */
+
+
