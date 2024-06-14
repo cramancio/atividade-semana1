@@ -2,7 +2,6 @@
 .header-container{
     display: grid;
     grid-template-columns: 1fr 2fr auto;
-
     margin: 20px;
 }
 .logo-principal{
@@ -18,17 +17,27 @@
     margin-left: 40px;
 }
 /*  Header */
-
-.footer-servicos{
-    background-color: #0b0f19;
+.itens-container .servico-item{
+    color: white;
 }
-.footer-container{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.textos-container-principal{
+    color: white;
 }
+.texto-principal{
+    color: white;
+}
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    color: white;
 
-/* Seção Principal */
+}
+.quem-somos-item{
+    width: 700px;
+}
+/* Pagina Inicial */
 .section-principal{
     display: flex;
     align-items: center;
@@ -41,7 +50,6 @@
     margin: 40px;
 }   
 
-/* Seção Principal */
 .contato{
     color: #fff;
 }
@@ -67,10 +75,9 @@
     text-align: center;
     margin-top: 20px;
 }
-/* Seção Principal */
+/* Pagina  Incial */
 
 /* Página de Serviços */
-
 .itens-container{
     display: grid;
     grid-template-columns: 1fr 1fr auto;
@@ -116,5 +123,21 @@
     margin-top: 150px;
 }
 /* Pagina de Cursos */
+button{
+    color: #0b0f19;
+    margin-top: 20px;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 
+    background-color: #d9b80077;
+    
+    align-items: center;
+    text-align: center;
 
+    font-size: 12px;
+}
